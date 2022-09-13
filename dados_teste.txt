@@ -1,0 +1,33 @@
+1:05:00
+0:28:00
+0:14:00
+
+
+api_key = "00da461e-ccfa-49a3-92f3-1d29959bc247"
+
+china = "regionId": 7,
+        "regionName": "CHINA 
+
+	"countryCode":5700,
+	"countryName":"CHINA",
+	"countryDescription":"CHINA, PEOPLES REPUBLIC OF",
+	"regionId":7,
+	"gencCode":"CHN"
+	
+
+mexico = "countryCode": 2010,
+    "countryName": "MEXICO  ",
+    "countryDescription": "MEXICO",
+    "regionId": 11,
+    "gencCode": "MEX"
+
+
+soja = "commodityCode": 801,
+    "commodityName": "Soybeans",
+    "unitId": 1
+
+
+get /api/esr/countries
+
+curl -X GET --header 'Accept: application/json' --header 'API_KEY: 00da461e-ccfa-49a3-92f3-1d29959bc247' 'https://apps.fas.usda.gov/OpenData/api/esr/countries'
+
